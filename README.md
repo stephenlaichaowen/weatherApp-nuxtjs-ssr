@@ -36,6 +36,9 @@ But it is not perfect, it does take fullstack app such as Nextjs. However Nextjs
 I have tried many times deploying this app on Heroku but just not working, building process is successful without errors, but the page just cannot be rendred. When I was about to give up, It came to me that Nuxtjs [document](https://nuxtjs.org/docs/2.x/deployment/heroku-deployment) has instructions on how to deploy Nuxtjs app to Heroku, then I realized I missed some steps. 
 After following the instructions then I finally got this app working. Very happy to nail it. 😁😁😁
 
+### Reference
+
+[Vue JS 3: Hide your API Key with Node.js, Express & Dotenv](https://www.youtube.com/watch?v=47pHZYtciEs&t=1749s)
 
 
 
