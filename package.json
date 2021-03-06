@@ -1,5 +1,5 @@
 {
-  "name": "weatherApp_nuxt",
+  "name": "weatherapp_nuxt_ssr",
   "version": "1.0.0",
   "private": true,
   "scripts": {
