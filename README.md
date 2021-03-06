@@ -38,7 +38,8 @@ After following the instructions then I finally got this app working. Very happy
 
 ### Reference
 
-[Vue JS 3: Hide your API Key with Node.js, Express & Dotenv](https://www.youtube.com/watch?v=47pHZYtciEs&t=1749s)
+[Vue JS 3: Hide your API Key with Node.js, Express & Dotenv / 
+Make Apps with Danny](https://www.youtube.com/watch?v=47pHZYtciEs&t=1749s)
 
 
 
