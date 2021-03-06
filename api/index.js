@@ -29,4 +29,6 @@ app.get('/api', (req, response) => {
   })
 })
 
+app.get('/api/')
+
 module.exports = app
