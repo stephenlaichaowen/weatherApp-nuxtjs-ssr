@@ -14,7 +14,7 @@ const apiUrl = 'http://api.openweathermap.org/data/2.5/weather'
 app.get('/api', (req, response) => {
   // console.log(req.query)
 
-  // response.set('Access-Control-Allow-Origin')
+  response.set('Access-Control-Allow-Origin')
   
   let query = req.query
   query.appid = apiKey
