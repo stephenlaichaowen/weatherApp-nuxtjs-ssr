@@ -25,7 +25,14 @@ $ npm start
 
 ## Deploy to Hosting Services
 
-I have tried to deploy this app to _*Vercel*_, _*Heroku*_, and _*Glitch*_
+_*Netlify*_
+
+The first hosting service came up to me is Vercel, the most versatile hosting platform for developers, it is not only free but has very powerful feature which automatically detects the project type, it knows which framework/technology you use after you import your project from Github to Vercel which is amazing.
+
+But it is not perfect, Vercel applies AWS technology under the hood and it only takes static web apps, meaning `npm start` is not wokring on Vercel because dynamic operation is not allowed. So this option is not applicable, let us move on to next option.
+
+_*Heroku*_
+
 
 
 
