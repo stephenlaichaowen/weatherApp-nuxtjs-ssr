@@ -40,9 +40,5 @@ export default {
 
   serverMiddleware: [
     '~/api'
-  ],
-
-  env: {
-    apiKey: process.env.API_KEY
-  }
+  ]
 }
