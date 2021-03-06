@@ -37,7 +37,8 @@ I guess because I am not a paid member so they restrict me deploy web app on the
 
 ### Glitch
 
-
+I have successfully upload Github project to _*Glitch*_ and build successfully. However backend does not get response from `https://openweathermap.org/` so it is not working either. I have Googleed the solution and found seems _*Digital Ocean*_ is a great solution. So it is time
+to shift to _*Digital Ocean*_ !!!
 
 
 
