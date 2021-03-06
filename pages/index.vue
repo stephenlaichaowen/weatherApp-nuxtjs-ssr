@@ -12,7 +12,7 @@
       </div>
       <div class="weather">
         <h2>{{ location }}</h2>
-        <h1>{{ deg }}</h1>
+        <h1>{{ deg }}&deg;</h1>
         <h2>{{ status }}</h2>
         <h3>{{ description }}</h3>
       </div>
@@ -30,8 +30,8 @@ export default {
       description: '',
       location: '',
       apiKey: '4d6518a119bdca2651f98d1ca0e63f84',
-      // apiUrl: 'http://localhost:3000/api/',
-      apiUrl: 'https://weatherapp-nuxtjs-ssr.glitch.me/api/',
+      apiUrl: 'http://localhost:3000/api/',
+      // apiUrl: 'https://weatherapp-nuxtjs-ssr.glitch.me/api/',
     }
   },
   methods: {

@@ -4,9 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "nuxt",
-    "build": "nuxt build",
-    "start": "nuxt start",
-    "generate": "nuxt generate",
+    "start": "nuxt build && nuxt start",
     "push": "git add . && git commit -m commit && git push origin master"
   },
   "dependencies": {
