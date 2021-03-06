@@ -1,6 +1,6 @@
 # Project name: Weather App
 
-This App is built with Nuxtjs framework, I use its SSR (Server Side Render) feature to build this fullstack app. The main purpose it to demonstrate hiding the api key from end users. By using Nuxtjs we can handle both frontend and backend in a single server.  
+This App is built with Nuxtjs framework, I use its SSR (Server Side Render) feature to build this fullstack app. The main purpose it to demonstrate hiding the api key from end users, because we know if we want to hide sensitve data such as api key (especially you paid for it), you have to it in backend. Nuxtjs integrates nodejs backend so we can easily handle both frontend and backend in the same project and deploy to a single server which makes life much easier.
 
 ---
 
