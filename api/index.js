@@ -30,3 +30,8 @@ app.get('/api', (req, response) => {
 })
 
 module.exports = app
+
+// module.exports = {
+//   path: '/api',
+//   handler: app
+// }

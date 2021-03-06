@@ -29,9 +29,10 @@ export default {
       status: '',
       description: '',
       location: '',
-      apiKey: '4d6518a119bdca2651f98d1ca0e63f84',
-      // apiUrl: 'http://localhost:3000/api/',
-      apiUrl: 'https://weatherapp-nuxtjs-ssr.glitch.me/api',
+      // apiKey: '4d6518a119bdca2651f98d1ca0e63f84',
+      // apiUrl: 'http://localhost:3000/api',
+      // apiUrl: 'https://weatherapp-nuxtjs-ssr.glitch.me/api',
+      apiUrl: '/api/',
     }
   },
   methods: {
