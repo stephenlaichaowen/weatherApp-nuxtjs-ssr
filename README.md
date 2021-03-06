@@ -33,13 +33,8 @@ But it is not perfect, it does take fullstack app such as Nextjs. However Nextjs
 
 ### Heroku
 
-I guess because I am not a paid member so they restrict me deploy web app on their platform, I have tried many different apps but just not working so I quit.
-
-### Glitch
-
-I have successfully upload Github project to _*Glitch*_ and build successfully. However backend does not get response from `https://openweathermap.org/` so it is not working either. I have Googleed the solution and found seems _*Digital Ocean*_ is a great solution. So it is time
-to shift to _*Digital Ocean*_ !!!
-
+I have tried many times deploying this app on Heroku but just not working, building process is successful without errors, but the page just cannot be rendred. When I was about to give up, It came to me that Nuxtjs [document](https://nuxtjs.org/docs/2.x/deployment/heroku-deployment) has instructions on how to deploy Nuxtjs app to Heroku, then I realized I missed some steps. 
+After following the instructions then I finally got this app working. Very happy to nail it. 😁😁😁
 
 
 
