@@ -9,6 +9,7 @@
           v-model="city"
           @keyup.enter="getWeather"
         />
+        <button @click="submit">Submit</button>
       </div>
       <div class="weather">
         <h2>{{ location }}</h2>
@@ -36,6 +37,9 @@ export default {
     }
   },
   methods: {
+    submit() {
+      this.getWeather()
+    },
     getWeather() {
       fetch(`${this.apiUrl}?units=metric&q=${this.city}`)
       .then(res => { 
@@ -76,7 +80,11 @@ export default {
   margin-bottom: 1rem;
 }
 .enter-city input {
-  font-size: 1.5rem;
+  /* font-size: 1.5rem; */
+  padding: 0.5rem;
+  border-radius: 4px;
+}
+button {
   padding: 0.5rem;
   border-radius: 4px;
 }
