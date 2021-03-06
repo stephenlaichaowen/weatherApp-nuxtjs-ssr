@@ -70,18 +70,20 @@ export default {
   margin-top: 5rem;
   height: 100vh;
   text-align: center;
+  padding: 0 2rem;
 }
 .container h1 {
   margin-bottom: 1rem;
 }
 .enter-city input {
-  font-size: 40px;
+  font-size: 1.5rem;
+  
 }
 .weather {
   margin-top: 10px;
 }
 .weather h1 {
-  font-size: 80px;
+  font-size: 50px;
 }
 .weather h1,
 h2,
