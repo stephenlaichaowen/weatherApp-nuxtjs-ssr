@@ -1,10 +1,10 @@
 # Project name: Weather App
 
-This App is built with Nuxtjs framework, I use its SSR (Server Side Render) feature to build this fullstack app. The main purpose it to demonstrate hiding the api key from end users, because we know if we want to hide sensitve data such as api key (especially you paid for it), you have to it in backend. Nuxtjs integrates nodejs backend so we can easily handle both frontend and backend in the same project and deploy to a single server which makes life much easier.
+This App is built with Nuxtjs framework, I use its SSR (Server Side Render) feature to build this fullstack app. The main purpose it to demonstrate hiding the api key from end users, because we know if we want to hide sensitve data such as api key (especially you paid for it), we have to it in backend. Nuxtjs integrates nodejs backend so we can easily handle both frontend and backend in the same project and deploy to a single server which makes life much easier.
 
 ---
 
-The home page component connects to `openweathermap` website,  retrieving current weather data then rendered on web page. In order to make it run you have to do the following steps.
+The home page component connects to `openweathermap` website,  retrieving current weather data then render on web page. In order to make it run you have to do the following steps.
 
 - Rename `env.local` to `.env`
 - Generate an API key at `https://openweathermap.org/`
@@ -29,7 +29,7 @@ _*Netlify*_
 
 The first hosting service came up to me is Vercel, the most versatile hosting platform for developers, it is not only free but has very powerful feature that it automatically detects the project type, it knows which framework/technology you use after you import your project from Github to Vercel and performs auto setup for you so we don't need to do extra setting which is pretty amazing.
 
-But it is not perfect, Vercel applies AWS technology under the hood and it only takes static web apps, meaning `npm start` is not wokring on Vercel because dynamic operation is not allowed. So this option is not applicable, let us move on to next option.
+But it is not perfect, it does take fullstack app such as Nextjs. However Nextjs api routes use serverless function provided by AWS, is different from traditional backend setup. meaning `npm start` is not wokring on Vercel because dynamic operation is not allowed. So this option is not applicable, let us move on to next option.
 
 _*Heroku*_
 
